@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(34, 34, 34);
+  color: white;
+}
+
+h2,
+p {
+  margin: 5% 0 2% 5%;
+}
+
+.add-link__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #f5df4d;
+  border-radius: 5%;
+  color: #000;
+  font-weight: bold;
+  width: 30%;
+  text-align: center;
+  min-height: 70px;
+}
+
+.add-links__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.recent-costs__table {
+  min-width: 50%;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid white;
+  padding: 5px;
+}
