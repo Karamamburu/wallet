@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/main/blocks/income/income.css">
+</head>
+<body>
+  <h2>Добавить доход:</h2>
+  <div class="income__category">
+
+    <form class="form__income">
+      <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg пример">
+        <option selected>Выберите источник дохода</option>
+        <option value="1">Зарплата</option>
+        <option value="2">Халтура</option>
+        <option value="3">Дождь из бабла</option>
+      </select>
+
+      <div class="input-group mb-3">
+        <span class="input-group-text">Сумма</span>
+        <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)">
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+        <label class="form-check-label" for="flexRadioDefault1">
+          &#8381
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+        <label class="form-check-label" for="flexRadioDefault2">
+          &#36
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+        <label class="form-check-label" for="flexRadioDefault2">
+          &#8364
+        </label>
+      </div>
+      
+      <div class="add-links__container">
+        <button class="submit-income__button" type="submit">Добавить доход</button>
+      </div>
+
+    </form>
+  </div>
+
+  
+  
+
+
+  <h2>Недавние доходы:</h2>
+
+  <table class="recent-costs__table">
+    <caption>Недавние доходы:</caption>
+    <tr>
+      <th style="width: 30%;">Источник</th>
+      <th style="width: 15%;">Доход</th>
+      <th style="width: 15%;">Дата</th>
+    </tr>
+    <tr>
+      <td>Зарплата</td>
+      <td>10000$</td>
+      <td>16.04.2023</td>
+    </tr>
+  </table>
+
+  <script src="/main/blocks/income/income.js"></script>
+</body>
+</html>

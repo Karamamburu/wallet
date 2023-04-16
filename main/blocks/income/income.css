@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(34, 34, 34);
+  color: white;
+}
+
+h2,
+p {
+  margin: 5% 0 2% 5%;
+}
+
+.balance__container {
+  display: flex;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  justify-content: space-between;
+}
+
+.add-link__button,
+.submit-income__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #f5df4d;
+  border-radius: 5%;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  width: 40%;
+  text-align: center;
+  min-height: 70px;
+}
+
+.add-links__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.recent-costs__table {
+  min-width: 50%;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid white;
+  padding: 5px;
+}
+
+form {
+  margin: 0 5% 2% 5%;
+}
+
+.form__bottom-layer {
+  display: flex;
+  justify-content: space-between;
+}

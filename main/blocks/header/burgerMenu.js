@@ -1,6 +1,6 @@
 const hamburger = document.querySelector(".hamburger");
-const navMenu  = document.querySelector(".nav-menu");
-const navLinks = document.querySelectorAll(".nav-link");
+const navMenu  = document.querySelector(".navbar-menu");
+const navLinks = document.querySelectorAll(".navbar-link");
 
 const toggleActiveClass = () => {
   hamburger.classList.toggle("active");
@@ -13,8 +13,8 @@ const removeActiveLinkClass = () => {
 }
 
 const setActiveLinkClass = (evt) => {
-  navLinks.forEach((elem) => elem.classList.remove('nav-link__active'));
-  evt.target.classList.add('nav-link__active');
+  navLinks.forEach((elem) => elem.classList.remove('navbar-link__active'));
+  evt.target.classList.add('navbar-link__active');
 }
 
 hamburger.addEventListener("click", toggleActiveClass);
